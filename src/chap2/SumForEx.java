@@ -1,3 +1,5 @@
+package chap2;
+
 public class SumForEx {
     public static void main(String[] args) {
 

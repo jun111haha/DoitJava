@@ -1,3 +1,5 @@
+package chap2;
+
 public class 네값의최대값 {
     public static void main(String[] args) {
 

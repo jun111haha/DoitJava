@@ -1,3 +1,5 @@
+package chap2;
+
 import java.util.Scanner;
 
 public class 그사이모든정수합 {
