@@ -1,11 +1,6 @@
-package chap4;
+package practice;
 // int형 스택
 
-
-/*
-* Stack : 후입선출 LIFO 구조로 가장 나중에 넣은 데이터를 가장 먼저 꺼내는 구조
-* 데이터를 넣는작업을 푸시라고하고, 데이터를 꺼내는 작업을 팝이라고함.
-* */
 public class IntStack {
 	private int max;			// 스택 용량
 	private int ptr;			// 스택 포인터
