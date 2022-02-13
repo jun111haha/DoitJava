@@ -111,4 +111,11 @@ public class IntQueue {
 			System.out.println();
 		}
 	}
+
+	public int search(int x) {
+		for (int i = 0; i < num; i++)
+			if (que[(i + front) % max] == x) // 검색성공
+				return i + 1;
+		return 0; // 검색실패
+	}
 }
