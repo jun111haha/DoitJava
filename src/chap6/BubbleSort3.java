@@ -5,7 +5,9 @@ import java.util.Scanner;
 class BubbleSort3 {
 	// 배열 요소 a[idx1]과 a[idx2]의 값을 바꿉니다.
 	static void swap(int[] a, int idx1, int idx2) {
-		int t = a[idx1]; a[idx1] = a[idx2]; a[idx2] = t;
+		int t = a[idx1];
+		a[idx1] = a[idx2];
+		a[idx2] = t;
 	}
 
 	// 버블 정렬(버전 3)
